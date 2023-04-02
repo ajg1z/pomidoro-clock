@@ -1,0 +1,1 @@
+export { DurationSettings } from './DurationSettings';

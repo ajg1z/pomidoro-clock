@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font-size: inherit;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    font-size: inherit;
+}
+
+input {
+    &::placeholder {
+        color: inherit;
+        font-size: inherit;
+    }
+}
